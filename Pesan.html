@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Pilihan Menu</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+      .navbar {
+        display: flex; /* Menggunakan Flexbox */
+        justify-content: space-around; /* Menyebar item secara merata */
+        background-color: #333;
+        margin-bottom: 20px;
+        flex-wrap: wrap; /* Memungkinkan item untuk melipat pada layar kecil */
+      }
+      .navbar a {
+        display: flex; /* Menata ikon dan teks secara fleksibel */
+        align-items: center;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        flex: 1; /* Membuat setiap item memiliki lebar yang sama */
+      }
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .navbar i {
+        margin-right: 8px; /* Ruang antara ikon dan teks */
+      }
+      .container {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: 50px auto;
+      }
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #666;
+      }
+      .button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 20px;
+      }
+      .button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <a href="index.html"><i class="fa fa-home"></i>Home</a>
+      <a href="Lokasi.html"><i class="fa fa-globe"></i>Lokasi</a>
+      <a href="Profil.html"><i class="fa fa-user"></i>Profil</a>
+      <a href="Pesan.html"><i class="fa fa-envelope"></i>Pesan</a>
+      <a href="Notifikasi.html"><i class="fa fa-bell"></i>Notifikasi</a>
+    </div>
+
+    <div class="container">
+      <h1>Halaman Pilihan Menu</h1>
+      <p>Silakan pilih salah satu menu di atas untuk melanjutkan.</p>
+      <p>
+        Jika tidak diarahkan, Anda dapat klik di sini:
+        <a href="https://stikes-baktara.ac.id/"
+          >STIKES BAKTI NUSANTARA GORONTALO</a
+        >
+      </p>
+      <a href="index.html" class="button">Kembali ke Beranda</a>
+    </div>
+  </body>
+</html>

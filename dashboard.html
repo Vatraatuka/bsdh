@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <title>Beranda - KULIAH PAKAR</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.w3schools.com/lib/w3-theme-blue.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+        background: linear-gradient(
+          to right,
+          #e3f2fd,
+          #bbdefb
+        ); /* Gradient background */
+        margin: 0;
+        padding: 20px;
+      }
+      .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: #2196f3;
+        padding: 10px 0;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        text-align: center;
+        transition: background-color 0.3s, transform 0.3s;
+        flex: 1;
+        border-radius: 5px;
+      }
+      .navbar a:hover {
+        background-color: #1976d2;
+        transform: scale(1.05);
+      }
+      .container {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 100%;
+        margin: 20px auto;
+        text-align: center;
+      }
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+      }
+      .main-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+      .speaker {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        padding: 15px;
+        background-color: #e7f3fe;
+        border-left: 6px solid #2196f3;
+      }
+      .speaker img {
+        width: 150px; /* Ukuran gambar pemateri diperbesar */
+        height: 150px; /* Ukuran gambar pemateri diperbesar */
+        border-radius: 50%;
+        margin-right: 15px;
+      }
+      .speaker-info {
+        text-align: left;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+        margin-top: 20px;
+      }
+      .footer-links {
+        list-style-type: none;
+        padding: 0;
+        margin: 10px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .footer-links li {
+        margin: 5px 0;
+      }
+      .footer-links li a {
+        color: white;
+        text-decoration: none;
+      }
+      .footer-links li a:hover {
+        text-decoration: underline;
+      }
+      @media (max-width: 600px) {
+        .navbar {
+          flex-direction: column;
+        }
+        .navbar a {
+          text-align: left;
+          padding: 10px 20px;
+        }
+      }
+    </style>
+  </head>
+  <body class="w3-theme-l5">
+    <!-- Navbar -->
+    <div class="navbar">
+      <a href="index.html"><i class="fa fa-home"></i> HOME</a>
+      <a href="Pembayaran.html"><i class="fa fa-credit-card"></i> Pembayaran</a>
+      <a href="Lokasi.html"><i class="fa fa-globe"></i> Lokasi</a>
+      <a href="Profil.html"><i class="fa fa-user"></i> Profil</a>
+      <a href="Pesan.html"><i class="fa fa-envelope"></i> Pesan</a>
+      <a href="logout.html"><i class="fa fa-sign-out"></i> Logout</a>
+    </div>
+
+    <main>
+      <div class="container">
+        <h1>Selamat Datang di Beranda Kami</h1>
+        <p>
+          Ini adalah halaman beranda setelah login. Silakan jelajahi menu di
+          atas untuk informasi lebih lanjut.
+        </p>
+        <img src="g.png" alt="Foto Beranda" class="main-image" />
+
+        <!-- Pemateri 1 -->
+        <div class="speaker">
+          <img src="DR,.jpeg" alt="Dr. Ahmad" />
+          <div class="speaker-info">
+            <h2>Pemateri 1: Dr. Ahmad</h2>
+            <p>Nama: Dr. Ahmad</p>
+            <p>Umur: 40 tahun</p>
+            <p>Tanggal Lahir: 15 Januari 1984</p>
+            <p>
+              Ahli dalam bidang kesehatan dan gizi, Dr. Ahmad akan membahas
+              tentang pentingnya pola makan sehat.
+            </p>
+          </div>
+        </div>
+
+        <!-- Pemateri 2 -->
+        <div class="speaker">
+          <img src="7.jpeg" alt="Dr. Siti" />
+          <div class="speaker-info">
+            <h2>Pemateri 2: Dr. Siti</h2>
+            <p>Nama: Dr. Siti</p>
+            <p>Umur: 35 tahun</p>
+            <p>Tanggal Lahir: 20 Februari 1989</p>
+            <p>
+              Spesialis kesehatan masyarakat, Dr. Siti akan menjelaskan dampak
+              kesehatan dari kebiasaan hidup sehari-hari.
+            </p>
+          </div>
+        </div>
+
+        <!-- Pemateri 3 -->
+        <div class="speaker">
+          <img src="8.jpeg" alt="Dr. Budi" />
+          <div class="speaker-info">
+            <h2>Pemateri 3: Dr. Budi</h2>
+            <p>Nama: Dr. Budi</p>
+            <p>Umur: 38 tahun</p>
+            <p>Tanggal Lahir: 5 Maret 1986</p>
+            <p>
+              Psikolog klinis, Dr. Budi akan membahas tentang kesehatan mental
+              dan cara menjaga keseimbangan emosi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 LPPM STIKES BAKTI NUSANTARA GORONTALO.</p>
+        <ul class="footer-links">
+          <li><a href="Tentang kami.html">Tentang Kami</a></li>
+          <li><a href="Kontak.html">Kontak</a></li>
+          <li><a href="Privasi.html">Kebijakan Privasi</a></li>
+          <li><a href="Syarat.html">Syarat & Ketentuan</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
